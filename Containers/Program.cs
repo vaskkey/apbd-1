@@ -43,3 +43,5 @@ Console.WriteLine(ship);
 ship.ReplaceContainer(liquid, new ColdContainer(2, 1200, 1600, 1));
 
 Console.WriteLine(ship);
+
+ship.Notify();
